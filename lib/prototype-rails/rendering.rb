@@ -8,6 +8,6 @@ ActionView::Helpers::RenderingHelper.module_eval do
       render_without_update(options, locals, &block)
     end
   end
-  
-  alias_method_chain :render, :update
+
+  # alias_method_chain :render, :update
 end
